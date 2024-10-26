@@ -1,0 +1,139 @@
+/* Reset CSS de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #e3e9fd, #bbdefb); /* Dégradé de bleu clair */
+    color: #333;
+    padding: 20px;
+}
+
+/* Style pour l'en-tête */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #005796, #80b3cb); /* Dégradé de turquoise */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les sections */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #005796; /* Bordure corail à gauche */
+}
+
+h2 {
+    color: #005796; /* Couleur du titre turquoise */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #005796; /* Ligne en dessous du titre */
+    padding-bottom: 5px;
+}
+
+/* Style pour le contenu du profil */
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px; /* Hauteur fixe pour un meilleur affichage */
+    border-radius: 50%;
+    border: 4px solid #005796; /* Bordure turquoise */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Garde le ratio de la photo */
+}
+
+/* Styles pour les listes */
+.objective-list, .hobby-list {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px; /* Espacement entre les éléments de liste */
+}
+
+/* Styles pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(135deg, #005796, #80b3cb); /* Dégradé pour l'en-tête */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternance de couleurs dans le tableau */
+}
+
+tr:hover {
+    background-color: #ffe0b2; /* Couleur de survol pour les lignes du tableau */
+}
+
+/* Style pour le formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s; /* Effet de transition pour les bordures */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 1px solid #005796; /* Bordure turquoise au focus */
+}
+
+button {
+    background: #005796; /* Couleur du bouton corail */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s; /* Effet de transition pour le bouton */
+}
+
+button:hover {
+    background: #1d0894; /* Couleur du bouton au survol */
+}
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #1d0894;}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil Avancé</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Profil</h1>
+    </header>
+    <section id="about-me">
+        <h2>À propos de moi</h2>
+        <div class="profile-content">
+            <p>
+                Je suis <strong>Hind Hilal</strong>,passionnée par le développement web et les nouvelles technologies, où je m'efforce de créer des solutions innovantes qui répondent aux besoins des utilisateurs. Mon enthousiasme pour l'exploration de nouvelles tendances technologiques me pousse à rester à la pointe de l'innovation. En dehors de mes projets de codage, j'aime voyager pour découvrir de nouvelles cultures et m'inspirer, tout en savourant un bon livre qui stimule ma créativité. Mon objectif est de combiner ces expériences pour concevoir des produits qui font une différence.
+            </p>
+            <img src="mon profi.jpg" alt="Photo de profil" class="profile-pic">
+        </div>
+    </section>
+    <section id="hobbies">
+        <h2>Mes Objectifs & Hobbies</h2>
+        
+        <p><strong>Je m'efforce d'atteindre les objectifs suivants :</strong></p>
+        <ol class="objective-list">
+            <li>Améliorer mes compétences en lecture pour approfondir mes connaissances dans divers domaines.</li>
+            <li>Pratiquer l'écriture régulièrement pour exprimer mes idées et projets de manière claire.</li>
+            <li>Maintenir une routine sportive pour rester en forme et équilibrer ma vie professionnelle et personnelle.</li>
+        </ol>
+        <p><strong>Quelques-uns de mes hobbies :</strong></p>
+        <ul class="hobby-list">
+            <li>Voyager et découvrir de nouvelles cultures</li>
+            <li>Lire des livres de fiction et de non-fiction</li>
+            <li>Explorer des technologies émergentes</li>
+            <li>Cuisiner de nouvelles recettes</li>
+            <li>Faire du bénévolat pour des causes qui me tiennent à cœur</li>
+        </ul>
+    </section>
+    
+    <section id="friends-table">
+        <h2>Mes Amis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                    <th>Ville</th>
+                    <th>Profil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asmae</td>
+                    <td>20</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://profil_asmae.com" target="_blank">Voir le profil</a></td>
+                </tr>
+                <tr>
+                    <td>Anas</td>
+                    <td>20</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://profil_anas.com" target="_blank">Voir le profil</a></td>
+                </tr>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>20</td>
+                    <td>Casablanca</td>
+                    <td><a href="https://profil_ahmed.com" target="_blank">Voir le profil</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact-form">
+    <h2>Contactez-moi</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="surname">Prénom :</label>
+            <input type="text" id="surname" name="surname" placeholder="Entrez votre prénom" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+        </div>
+        <div class="form-group">
+            <label for="email2">Email secondaire :</label>
+            <input type="email" id="email2" name="email2" placeholder="Entrez un autre email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message ici..."></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+    <footer>
+        <p>&copy; 2024 Mon Profil Avancé | Réalisé avec ❤ par Hind Hilal</p>
+    </footer>
+</body>
+</html>
